@@ -37,7 +37,7 @@ color ray_color(const ray& r) {
 	if (t > 0.0) {
 		vec3 surface_normal{ unit_vector(r.at(t) - sphere_center) };
 		return 0.5 * color(surface_normal.x() + 1, 
-						   surface_normal .y() + 1, 
+						   surface_normal.y() + 1, 
 						   surface_normal.z() + 1); //domain [0,1]
 	}
 	
