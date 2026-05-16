@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/riley/Projects/ToyRaytracing/build",
+  "command": "/usr/bin/g++ -I/home/riley/Projects/ToyRaytracing/include -g -std=gnu++20 -o CMakeFiles/Raytracer.dir/src/main.cpp.o -c /home/riley/Projects/ToyRaytracing/src/main.cpp",
+  "file": "/home/riley/Projects/ToyRaytracing/src/main.cpp",
+  "output": "/home/riley/Projects/ToyRaytracing/build/CMakeFiles/Raytracer.dir/src/main.cpp.o"
+}
+]

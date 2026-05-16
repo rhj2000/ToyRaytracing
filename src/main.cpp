@@ -4,11 +4,6 @@
 
 #include <iostream>
 
-//#define DEBUG
-#ifdef DEBUG
-#include <thread>
-#include<chrono>
-#endif DEBUG
 
 double hit_sphere(const point3& center, double radius, const ray& r) {
 
@@ -88,9 +83,6 @@ int main() {
 	std::cout << "P3\n" << image_width << " " << image_height << "\n" << "255\n";
 
 	for (int i{ 0 }; i < image_height; ++i) {
-#ifdef DEBUG
-		std::this_thread::sleep_for(std::chrono::milliseconds(20));
-#endif
 		std::clog << "\rScanlines remaining: " << (image_height - i) << " " << std::flush;
 		for (int j{ 0 }; j < image_width; ++j) {
 			auto pixel_center{ pixel00_loc + (j * pixel_delta_u) + (i * pixel_delta_v) };

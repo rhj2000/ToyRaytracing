@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/riley/Projects/ToyRaytracing/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

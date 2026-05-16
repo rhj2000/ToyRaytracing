@@ -1,0 +1,3 @@
+/home/riley/Projects/ToyRaytracing/build/CMakeFiles/Raytracer.dir
+/home/riley/Projects/ToyRaytracing/build/CMakeFiles/edit_cache.dir
+/home/riley/Projects/ToyRaytracing/build/CMakeFiles/rebuild_cache.dir
