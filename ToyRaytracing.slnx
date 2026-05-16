@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="ToyRaytracing.vcxproj" Id="2e265e4e-47f0-42ba-b701-e3869b56e888" />
-</Solution>
